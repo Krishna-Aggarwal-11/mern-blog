@@ -49,7 +49,7 @@ const Register = () => {
         <div className='flex-1 items-center'>
           <form className='flex flex-col gap-4' action="" onSubmit={handleSubmit}>
             <div >
-              <Label value='UserName'/>
+              <Label className='text-white' value='UserName'/>
               <TextInput type='text' placeholder='username' id='username' onChange={handleChange}/>
             </div>
             <div >
